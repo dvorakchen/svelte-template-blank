@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@plugin "@iconify/tailwind4" {
+    scale: 1.5;
+}
+
+@plugin "daisyui" {
+    themes: nord --default, dark --prefersdark;
+}
